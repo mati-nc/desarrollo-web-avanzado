@@ -19,3 +19,19 @@ body {
     margin: auto;
 }
 
+.caja-padre{
+    width: 600px;
+    height: 600px;
+    margin: 40px auto;
+    border: 5px solid gold;
+}
+
+.caja{
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    text-align: center; /* centra horizontalmente los textos */
+    color: white;
+    font-weight: bold;
+    line-height: 100px; /* centra verticalmente los textos */
+}

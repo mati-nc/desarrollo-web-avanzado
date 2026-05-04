@@ -1,0 +1,44 @@
+/* Siempre incorporar una tipografia
+al principio del css */
+/* Por cada versión de la tipografia
+necesito un font-face */
+
+@font-face {
+    font-family: 'Medieval Sharp Bold';
+    font-style: normal;
+    font-weight: 300;
+    src: 
+        local('Medieval Sharp'),
+        url('fonts/MedievalSharp-Bold.woff') format('woff');
+}
+
+/* con fallback por si acaso sans serif */
+h1{
+    font-family: 'Medieval Sharp Bold', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+
+/* Reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    /* tipografia segura: todos los so van a tener alguna de estas tipografias*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+    /* ocupa como maximo 900px horizontalmente */
+    max-width: 900px;
+    border: 1px solid crimson;
+    margin: auto;
+}
+
