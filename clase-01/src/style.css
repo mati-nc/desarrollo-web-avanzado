@@ -1,0 +1,41 @@
+/* Reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    /* tipografia segura: todos los so van a tener alguna de estas tipografias*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+    /* ocupa como maximo 900px horizontalmente */
+    max-width: 900px;
+    border: 1px solid crimson;
+    margin: auto;
+}
+
+.fondo-base {
+    background-color: blue;
+    width: auto;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+
+.fondo-color {
+    background-color: darkorange;
+}
+
+.fondo-degradado{
+    background-image: linear-gradient(darkorange, darkgreen);
+}
+
+.fondo-degradado{
+    background-image: linear-gradient(darkorange, darkorchid);
+}
+
